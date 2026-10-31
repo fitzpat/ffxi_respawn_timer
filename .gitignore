@@ -1,6 +1,7 @@
 # Local game connection, timers, and preferences
 mob_timer_config.json
 mob_timer_config.json.tmp
+mob_timer_diagnostics.log*
 
 # Build and release output
 /build/

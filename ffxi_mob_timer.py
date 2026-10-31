@@ -34,6 +34,7 @@ import time
 from datetime import datetime, timedelta
 
 from timer_ui import PALETTES, TABLE_COLUMNS, TimerInterface
+from runtime_diagnostics import RuntimeDiagnostics
 
 try:
     import tkinter as tk
@@ -892,7 +893,7 @@ class App(TimerInterface):
     def remove_row(self, key):
         row = self.rows.pop(key, None)
         if row:
-            focused = self.root.focus_get()
+            focused = self._focused_widget()
             restore_focus = focused and str(focused).startswith(str(row.frame) + ".")
             row.destroy()
             if restore_focus:
@@ -910,7 +911,7 @@ class App(TimerInterface):
         # Keep the saved defeat and settings; suppress stale due alerts on return.
         row.refresh_timer()
         row.update_display(time.time())
-        focused = self.root.focus_get()
+        focused = self._focused_widget()
         if focused and str(focused).startswith(str(row.frame) + "."):
             self.search_entry.focus_set()
         self._order = None
@@ -1056,20 +1057,25 @@ class App(TimerInterface):
                     self._update_connection(ev[1])
         except queue.Empty:
             pass
-        self.root.after(200, self._drain_events)
+        finally:
+            # A failed callback must not permanently stop live log processing.
+            self.root.after(200, self._drain_events)
 
     _watching = "Waiting for log files..."
 
     def _tick(self):
-        now = time.time()
-        order = sorted(self.rows.values(), key=lambda r: r.sort_key(now))
-        for row in order:
-            row.update_display(now)
-        names = [r.key for r in order]
-        if names != self._order:
-            self._order = names
-        self._refresh_overview()
-        self.root.after(500, self._tick)
+        try:
+            now = time.time()
+            order = sorted(self.rows.values(), key=lambda r: r.sort_key(now))
+            for row in order:
+                row.update_display(now)
+            names = [r.key for r in order]
+            if names != self._order:
+                self._order = names
+            self._refresh_overview()
+        finally:
+            # Report failures through Tk's exception hook, then retry next tick.
+            self.root.after(500, self._tick)
 
     # -- notification ---------------------------------------------------
 
@@ -1249,8 +1255,17 @@ def main():
         r.destroy()
         sys.exit(1)
     root = tk.Tk()
-    App(root)
-    root.mainloop()
+    diagnostics = RuntimeDiagnostics(root, APP_DIR)
+    try:
+        app = App(root)
+        diagnostics.logger.info('Startup complete; %d mobs, %d untracked', len(app.rows),
+                                sum(not row.tracked for row in app.rows.values()))
+        root.mainloop()
+    except Exception:
+        diagnostics.logger.exception('Application startup or event loop failed')
+        raise
+    finally:
+        diagnostics.close()
 
 
 if __name__ == "__main__":

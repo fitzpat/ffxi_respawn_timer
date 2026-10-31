@@ -1,16 +1,16 @@
-FFXI Respawn Timer v1.0.0 is the first packaged release.
+FFXI Respawn Timer v1.0.1 fixes a dropdown-focus error that could stop countdown updates and live kill processing.
 
-- Automatically follow FFXI chat logs and start respawn timers from defeat messages.
-- Track individual spawn IDs with the mobid addon and recognize 442 placeholder IDs for 269 notorious monsters.
-- Adjust duration and alerts directly in compact rows; filter upcoming, due, untimed, or untracked mobs.
-- Untrack individual mob IDs persistently and restore them with Track. Untracked mobs ignore kills, recovery, sounds, and alerts.
-- Recover recent placeholder defeats from the last hour of logs without replaying old alerts.
-- Use whole-minute placeholder baselines plus a 20-second corpse allowance, including Charybdis at 16:20.
-- Customize early warnings, respawn notifications, placeholder defeat sounds, and light/dark appearance.
-- Search the placeholder library and edit its timing database with automatic reload.
+- Handle Tk-created dropdown popup widgets without raising `KeyError: 'popdown'`.
+- Keep timer updates and log-event processing scheduled after a recoverable callback error.
+- Ignore native popup focus and scrolling events that have no Python widget object.
+- Record callback and background-thread errors in a rotating local `mob_timer_diagnostics.log`.
+- Capture thread stacks if the UI heartbeat stalls, making future hangs easier to diagnose.
+- Add regression coverage for open dropdowns, incoming kills, callback recovery, and logging without a console.
 
-Download the Windows x64 ZIP, extract it, and run FFXIRespawnTimer.exe. Python is not required. Choose your chatlogs folder in Settings. Enable the mobid addon and individual spawn ID tracking for placeholder features.
+Validation includes 84 automated tests, a native Windows dropdown/callback recovery check, and packaged startup/persistence checks.
 
-The standalone EXE is also available and creates an editable mob_tags.json beside itself on first launch. Saved timers and preferences are stored locally in mob_timer_config.json; no personal configuration is included in this release.
+To upgrade, close the old timer and replace FFXIRespawnTimer.exe with this release. Keep your existing mob_timer_config.json to preserve saved timers, preferences, and untracked mob IDs. Keep your existing mob_tags.json if you have custom timing edits. No configuration migration is required.
 
-SHA256SUMS.txt contains checksums for the EXE and ZIP. Timing estimates and placeholder mappings can vary between servers; the included library retains source notes and supports manual corrections.
+Download the Windows x64 ZIP and extract it, or download the standalone EXE. Python is not required. The ZIP includes the stock placeholder database and usage notes; personal settings and diagnostic logs are excluded.
+
+SHA256SUMS.txt contains checksums for the EXE and portable ZIP.

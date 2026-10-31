@@ -135,6 +135,13 @@ sample timers; it does not change your saved timers or watch your game logs.
 After rebuilding on Windows, `python tools/check_packaged_ui.py` checks the executable
 in a temporary folder, including startup, bundled tags, saved timers, and clean exit.
 
+If the app stops updating, keep `mob_timer_diagnostics.log` beside the executable.
+It records callback errors and thread stacks when the window stops responding.
+The log rotates locally and is excluded from Git and release packages. If the app
+folder is not writable, the log is written to your system temporary folder.
+Run `python tools/check_ui_liveness.py` with Windows Python to verify that open
+dropdowns and recoverable callback errors do not stop timers or incoming kills.
+
 Release builds run on Windows from version tags such as `v1.0.0`. The workflow runs
 the regression suite, builds and checks the executable, then publishes the EXE,
 portable ZIP, and SHA-256 checksums. Local settings, saved timers, build folders,

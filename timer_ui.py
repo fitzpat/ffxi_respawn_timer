@@ -57,6 +57,13 @@ def system_appearance():
 class TimerInterface:
     """UI mixin; the application supplies Tk, state, and action callbacks."""
 
+    def _focused_widget(self):
+        """Tcl-created popup children have no Python widget to return."""
+        try:
+            return self.root.focus_get()
+        except KeyError:
+            return None
+
     def _frame(self, parent, role="surface", **kwargs):
         if kwargs.get("highlightthickness"):
             kwargs.setdefault("highlightcolor", self.palette["border"])
@@ -488,7 +495,7 @@ class TimerInterface:
         return "break"
 
     def _scroll_active_view(self, event):
-        if event.widget.winfo_class() in ("Entry", "TCombobox", "Listbox", "Treeview"):
+        if not hasattr(event.widget, "winfo_class") or event.widget.winfo_class() in ("Entry", "TCombobox", "Listbox", "Treeview"):
             return
         index = self.notebook.index(self.notebook.select())
         if index not in (0, 1):
@@ -504,6 +511,8 @@ class TimerInterface:
         if not getattr(self, "_ui_ready", False):
             return
         widget = event.widget
+        if not hasattr(widget, "winfo_rooty"):
+            return  # Native dropdown children arrive as Tcl path strings.
         for canvas in (self.settings_canvas, self.canvas):
             if not str(widget).startswith(str(canvas) + "."):
                 continue
@@ -553,7 +562,7 @@ class TimerInterface:
         query = self.search_var.get().casefold().strip()
         order = sorted(self.rows.values(), key=lambda r: r.sort_key(now))
         # A duration change must not move the controls out from under the user.
-        focused = self.root.focus_get()
+        focused = self._focused_widget()
         if focused and focused.winfo_class() == "Entry" and any(str(focused).startswith(str(row.frame) + ".") for row in order):
             previous = {key: i for i, key in enumerate(getattr(self, "_timer_order", []))}
             order.sort(key=lambda row: previous.get(row.key, len(previous)))
