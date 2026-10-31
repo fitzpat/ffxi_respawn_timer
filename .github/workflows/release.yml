@@ -49,18 +49,33 @@ jobs:
             "release-assets/FFXIRespawnTimer-$env:GITHUB_REF_NAME-windows-x64.zip",
             'release-assets/SHA256SUMS.txt'
           )
-          gh release create "$env:GITHUB_REF_NAME" @files --draft --verify-tag --title "FFXI Respawn Timer $env:GITHUB_REF_NAME" --notes-file RELEASE_NOTES.md
+          $allReleases = gh api "repos/$env:GITHUB_REPOSITORY/releases?per_page=100" | ConvertFrom-Json
+          if ($LASTEXITCODE -ne 0) { throw 'Could not list releases.' }
+          $matchingReleases = @($allReleases | Where-Object { $_.tag_name -eq $env:GITHUB_REF_NAME })
+          if ($matchingReleases.Count -gt 1) { throw 'Multiple releases have this tag.' }
+          if ($matchingReleases.Count -eq 1) {
+            if (-not $matchingReleases[0].draft) { throw 'This release is already published; refusing to replace assets.' }
+            gh release upload "$env:GITHUB_REF_NAME" @files --clobber
+          } else {
+            gh release create "$env:GITHUB_REF_NAME" @files --draft --verify-tag --title "FFXI Respawn Timer $env:GITHUB_REF_NAME" --notes-file RELEASE_NOTES.md
+          }
           if ($LASTEXITCODE -ne 0) { throw 'Release upload failed.' }
-          $release = gh api "repos/$env:GITHUB_REPOSITORY/releases/tags/$env:GITHUB_REF_NAME" | ConvertFrom-Json
+          # The by-tag endpoint excludes drafts. Find its ID through the list.
+          $allReleases = gh api "repos/$env:GITHUB_REPOSITORY/releases?per_page=100" | ConvertFrom-Json
+          if ($LASTEXITCODE -ne 0) { throw 'Could not find uploaded draft.' }
+          $matchingReleases = @($allReleases | Where-Object { $_.tag_name -eq $env:GITHUB_REF_NAME })
+          if ($matchingReleases.Count -ne 1) { throw 'Expected one uploaded draft.' }
+          $releaseId = $matchingReleases[0].id
+          $release = gh api "repos/$env:GITHUB_REPOSITORY/releases/$releaseId" | ConvertFrom-Json
           if ($LASTEXITCODE -ne 0) { throw 'Could not inspect uploaded release.' }
           $expected = @($files | ForEach-Object { Split-Path $_ -Leaf })
           foreach ($name in $expected) {
             $asset = @($release.assets | Where-Object { $_.name -eq $name -and $_.size -gt 0 -and $_.state -eq 'uploaded' })
             if ($asset.Count -ne 1) { throw "Missing or incomplete asset: $name" }
           }
-          gh release edit "$env:GITHUB_REF_NAME" --draft=false --latest
+          gh api --method PATCH "repos/$env:GITHUB_REPOSITORY/releases/$releaseId" -F draft=false -f make_latest=true
           if ($LASTEXITCODE -ne 0) { throw 'Release publication failed.' }
-          $release = gh api "repos/$env:GITHUB_REPOSITORY/releases/tags/$env:GITHUB_REF_NAME" | ConvertFrom-Json
+          $release = gh api "repos/$env:GITHUB_REPOSITORY/releases/$releaseId" | ConvertFrom-Json
           if ($LASTEXITCODE -ne 0 -or $release.draft -or -not $release.published_at) { throw 'Published release verification failed.' }
           "RELEASE_URL=$($release.html_url)" >> $env:GITHUB_ENV
       - name: Report release result
