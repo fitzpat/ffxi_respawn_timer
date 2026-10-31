@@ -1,0 +1,2499 @@
+{
+  "profile": "classic_75",
+  "audited_ids": 442,
+  "changed_ids": 204,
+  "unchanged_ids": 238,
+  "basis_counts": {
+    "classic_field_default": 182,
+    "classic_dungeon_level_band": 235,
+    "classic_individual_reference": 19,
+    "era_emulator_exception": 3,
+    "scripted_or_variable": 3
+  },
+  "unknown_timers": [
+    "17219886",
+    "17383444",
+    "17391806"
+  ],
+  "notes": [
+    "Placeholder ID relationships were preserved.",
+    "Horizon-specific timing overrides no longer determine default timers.",
+    "Rule-derived baselines are explicitly marked as inferred. Named exceptions retain separate sources.",
+    "The application still adds each entry's despawn_seconds to obtain its timer from defeat.",
+    "No live spawn timing was measured."
+  ],
+  "changes": [
+    {
+      "mob_id": "16785675",
+      "name": "Birdtrap",
+      "zone": "carpenters_landing",
+      "placeholder_for": [
+        "Orctrap"
+      ],
+      "before_seconds": 450,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "16814319",
+      "name": "Diremite",
+      "zone": "psoxja",
+      "placeholder_for": [
+        "Gyre-Carlin"
+      ],
+      "before_seconds": 900,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "16814330",
+      "name": "Diremite",
+      "zone": "psoxja",
+      "placeholder_for": [
+        "Gyre-Carlin"
+      ],
+      "before_seconds": 900,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "16814343",
+      "name": "Diremite",
+      "zone": "psoxja",
+      "placeholder_for": [
+        "Gyre-Carlin"
+      ],
+      "before_seconds": 900,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "16896106",
+      "name": "Nimbus Hippogryph",
+      "zone": "riverne_site_b01",
+      "placeholder_for": [
+        "Imdugud"
+      ],
+      "before_seconds": 360,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "16998654",
+      "name": "Draugar Servant",
+      "zone": "arrapago_reef",
+      "placeholder_for": [
+        "Bloody Bones"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17072142",
+      "name": "Qiqirn Goldsmith",
+      "zone": "alzadaal_undersea_ruins",
+      "placeholder_for": [
+        "Cookieduster Lipiroon"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17072148",
+      "name": "Qiqirn Goldsmith",
+      "zone": "alzadaal_undersea_ruins",
+      "placeholder_for": [
+        "Cookieduster Lipiroon"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17170472",
+      "name": "Vorpal Bunny past",
+      "zone": "fort_karugo_narugo_s",
+      "placeholder_for": [
+        "Ratatoskr"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17170498",
+      "name": "Rafflesia",
+      "zone": "fort_karugo_narugo_s",
+      "placeholder_for": [
+        "Kirtimukha"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17170565",
+      "name": "Dragonfly MMS FKNS",
+      "zone": "fort_karugo_narugo_s",
+      "placeholder_for": [
+        "Demoiselle Desolee"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17187110",
+      "name": "Forest Hare",
+      "zone": "west_ronfaure",
+      "placeholder_for": [
+        "Jaggedy-Eared Jack"
+      ],
+      "before_seconds": 330,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17191142",
+      "name": "Carrion Worm",
+      "zone": "east_ronfaure",
+      "placeholder_for": [
+        "Bigmouth Billy"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17191143",
+      "name": "Carrion Worm",
+      "zone": "east_ronfaure",
+      "placeholder_for": [
+        "Bigmouth Billy"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17191187",
+      "name": "Pugil",
+      "zone": "east_ronfaure",
+      "placeholder_for": [
+        "Swamfisk"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17191188",
+      "name": "Pugil",
+      "zone": "east_ronfaure",
+      "placeholder_for": [
+        "Swamfisk"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17191287",
+      "name": "Pugil",
+      "zone": "east_ronfaure",
+      "placeholder_for": [
+        "Swamfisk"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17191288",
+      "name": "Pugil",
+      "zone": "east_ronfaure",
+      "placeholder_for": [
+        "Swamfisk"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17191289",
+      "name": "Pugil",
+      "zone": "east_ronfaure",
+      "placeholder_for": [
+        "Swamfisk"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17191290",
+      "name": "Pugil",
+      "zone": "east_ronfaure",
+      "placeholder_for": [
+        "Swamfisk"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17199434",
+      "name": "Damselfly",
+      "zone": "valkurm_dunes",
+      "placeholder_for": [
+        "Valkurm Emperor"
+      ],
+      "before_seconds": 330,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17211536",
+      "name": "Maneating Hornet",
+      "zone": "north_gustaberg",
+      "placeholder_for": [
+        "Stinging Sophie"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17211560",
+      "name": "Maneating Hornet",
+      "zone": "north_gustaberg",
+      "placeholder_for": [
+        "Stinging Sophie"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17211698",
+      "name": "Walking Sapling",
+      "zone": "north_gustaberg",
+      "placeholder_for": [
+        "Maighdean Uaine"
+      ],
+      "before_seconds": 240,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17211701",
+      "name": "Walking Sapling",
+      "zone": "north_gustaberg",
+      "placeholder_for": [
+        "Maighdean Uaine"
+      ],
+      "before_seconds": 240,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17215867",
+      "name": "Rock Lizard",
+      "zone": "south_gustaberg",
+      "placeholder_for": [
+        "Leaping Lizzy"
+      ],
+      "before_seconds": 330,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17215887",
+      "name": "Rock Lizard",
+      "zone": "south_gustaberg",
+      "placeholder_for": [
+        "Leaping Lizzy"
+      ],
+      "before_seconds": 330,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17232042",
+      "name": "Tundra Tiger",
+      "zone": "beaucedine_glacier",
+      "placeholder_for": [
+        "Kirata"
+      ],
+      "before_seconds": 330,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17232043",
+      "name": "Tundra Tiger",
+      "zone": "beaucedine_glacier",
+      "placeholder_for": [
+        "Kirata"
+      ],
+      "before_seconds": 330,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17248514",
+      "name": "Carrion Crow",
+      "zone": "west_sarutabaruta",
+      "placeholder_for": [
+        "Nunyenunc"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17248515",
+      "name": "Carrion Crow",
+      "zone": "west_sarutabaruta",
+      "placeholder_for": [
+        "Nunyenunc"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17248516",
+      "name": "Carrion Crow",
+      "zone": "west_sarutabaruta",
+      "placeholder_for": [
+        "Nunyenunc"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17252507",
+      "name": "Savanna Rarab",
+      "zone": "east_sarutabaruta",
+      "placeholder_for": [
+        "Sharp-Eared Ropipi"
+      ],
+      "before_seconds": 180,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17268849",
+      "name": "Tabar Beak",
+      "zone": "sauromugue_champaign",
+      "placeholder_for": [
+        "Deadly Dodo"
+      ],
+      "before_seconds": 330,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17268850",
+      "name": "Tabar Beak",
+      "zone": "sauromugue_champaign",
+      "placeholder_for": [
+        "Deadly Dodo"
+      ],
+      "before_seconds": 330,
+      "after_seconds": 300,
+      "basis": "classic_field_default",
+      "source": "https://classicffxi.fandom.com/wiki/Respawn_Time"
+    },
+    {
+      "mob_id": "17350823",
+      "name": "Orcish Grunt",
+      "zone": "ghelsba_outpost",
+      "placeholder_for": [
+        "Thousandarm Deshglesh"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 480,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17350824",
+      "name": "Orcish Stonechucker",
+      "zone": "ghelsba_outpost",
+      "placeholder_for": [
+        "Thousandarm Deshglesh"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 480,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17350825",
+      "name": "Orcish Neckchopper",
+      "zone": "ghelsba_outpost",
+      "placeholder_for": [
+        "Thousandarm Deshglesh"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 480,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17371513",
+      "name": "Yagudo Mendicant",
+      "zone": "giddeus",
+      "placeholder_for": [
+        "Hoo Mjuu the Torrent"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 480,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17371577",
+      "name": "Yagudo Piper",
+      "zone": "giddeus",
+      "placeholder_for": [
+        "Vuu Puqu the Beguiler"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 480,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17379447",
+      "name": "Old Quadav",
+      "zone": "beadeaux",
+      "placeholder_for": [
+        "Ge'Dha Evileye"
+      ],
+      "before_seconds": 900,
+      "after_seconds": 600,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17379562",
+      "name": "Zircon Quadav",
+      "zone": "beadeaux",
+      "placeholder_for": [
+        "Zo'Khu Blackcloud"
+      ],
+      "before_seconds": 1020,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17395798",
+      "name": "Yagudo Drummer",
+      "zone": "castle_oztroja",
+      "placeholder_for": [
+        "Mee Deggi the Punisher"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17395799",
+      "name": "Yagudo Interrogator",
+      "zone": "castle_oztroja",
+      "placeholder_for": [
+        "Mee Deggi the Punisher"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17395813",
+      "name": "Yagudo Theologist",
+      "zone": "castle_oztroja",
+      "placeholder_for": [
+        "Moo Ouzi the Swiftblade"
+      ],
+      "before_seconds": 780,
+      "after_seconds": 600,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17395867",
+      "name": "Yagudo Herald",
+      "zone": "castle_oztroja",
+      "placeholder_for": [
+        "Quu Domi the Gallant"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17395868",
+      "name": "Yagudo Oracle",
+      "zone": "castle_oztroja",
+      "placeholder_for": [
+        "Quu Domi the Gallant"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17403938",
+      "name": "Death Cap",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Ellyllon"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17403995",
+      "name": "Robber Crab",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Aquarius"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17403999",
+      "name": "Robber Crab",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Aquarius"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404004",
+      "name": "Robber Crab",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Aquarius"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404027",
+      "name": "Moss Eater",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Unut"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404043",
+      "name": "Moss Eater",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Unut"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404053",
+      "name": "Moss Eater",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Unut"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404060",
+      "name": "Moss Eater",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Unut"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404292",
+      "name": "Boyahda Sapling",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Leshonki"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404294",
+      "name": "Boyahda Sapling",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Leshonki"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404296",
+      "name": "Boyahda Sapling",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Leshonki"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404301",
+      "name": "Boyahda Sapling",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Leshonki"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404304",
+      "name": "Boyahda Sapling",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Leshonki"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17404330",
+      "name": "Demonic Rose",
+      "zone": "the_boyahda_tree",
+      "placeholder_for": [
+        "Voluptuous Vivian"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17420325",
+      "name": "Giant Gatekeeper",
+      "zone": "middle_delkfutts_tower",
+      "placeholder_for": [
+        "Eurytos"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 780,
+      "basis": "classic_individual_reference",
+      "source": "https://classicffxi.fandom.com/wiki/Eurytos"
+    },
+    {
+      "mob_id": "17420326",
+      "name": "Giant Guard",
+      "zone": "middle_delkfutts_tower",
+      "placeholder_for": [
+        "Eurytos"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 780,
+      "basis": "classic_individual_reference",
+      "source": "https://classicffxi.fandom.com/wiki/Eurytos"
+    },
+    {
+      "mob_id": "17420383",
+      "name": "Giant Gatekeeper",
+      "zone": "middle_delkfutts_tower",
+      "placeholder_for": [
+        "Polybotes"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17420419",
+      "name": "Giant Guard",
+      "zone": "middle_delkfutts_tower",
+      "placeholder_for": [
+        "Rhoitos"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17420527",
+      "name": "Gigas Kettlemaster",
+      "zone": "middle_delkfutts_tower",
+      "placeholder_for": [
+        "Ophion"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17420556",
+      "name": "Gigas Quarrier",
+      "zone": "middle_delkfutts_tower",
+      "placeholder_for": [
+        "Rhoikos"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17420593",
+      "name": "Gigas Wallwatcher",
+      "zone": "middle_delkfutts_tower",
+      "placeholder_for": [
+        "Ogygos"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17424388",
+      "name": "Gigas Bonecutter",
+      "zone": "upper_delkfutts_tower",
+      "placeholder_for": [
+        "Enkelados"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17424426",
+      "name": "Gigas Bonecutter",
+      "zone": "upper_delkfutts_tower",
+      "placeholder_for": [
+        "Enkelados"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17424474",
+      "name": "Phasma UDT",
+      "zone": "upper_delkfutts_tower",
+      "placeholder_for": [
+        "Ixtab"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17424511",
+      "name": "Phasma UDT",
+      "zone": "upper_delkfutts_tower",
+      "placeholder_for": [
+        "Ixtab"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17432622",
+      "name": "Tonberry Trailer",
+      "zone": "den_of_rancor",
+      "placeholder_for": [
+        "Celeste-eyed Tozberry"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17432625",
+      "name": "Tonberry Trailer",
+      "zone": "den_of_rancor",
+      "placeholder_for": [
+        "Celeste-eyed Tozberry"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17432662",
+      "name": "Tonberry Imprecator",
+      "zone": "den_of_rancor",
+      "placeholder_for": [
+        "Carmine-tailed Janberry"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17432671",
+      "name": "Tonberry Imprecator",
+      "zone": "den_of_rancor",
+      "placeholder_for": [
+        "Carmine-tailed Janberry"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17432787",
+      "name": "Tonberry Slasher",
+      "zone": "den_of_rancor",
+      "placeholder_for": [
+        "Tawny-fingered Mugberry"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17432820",
+      "name": "Tonberry Beleaguerer",
+      "zone": "den_of_rancor",
+      "placeholder_for": [
+        "Bistre-hearted Malberry"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17432973",
+      "name": "Doom Toad",
+      "zone": "den_of_rancor",
+      "placeholder_for": [
+        "Ogama"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17432979",
+      "name": "Doom Toad",
+      "zone": "den_of_rancor",
+      "placeholder_for": [
+        "Ogama"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17457200",
+      "name": "Seeker Bats",
+      "zone": "ranguemont_pass",
+      "placeholder_for": [
+        "Gloom Eye"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 600,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17457229",
+      "name": "Hecteyes RP",
+      "zone": "ranguemont_pass",
+      "placeholder_for": [
+        "Hyakume"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17461306",
+      "name": "Mousse",
+      "zone": "bostaunieux_oubliette",
+      "placeholder_for": [
+        "Sewer Syrup"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17461310",
+      "name": "Garm BO",
+      "zone": "bostaunieux_oubliette",
+      "placeholder_for": [
+        "Shii"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17461314",
+      "name": "Garm BO",
+      "zone": "bostaunieux_oubliette",
+      "placeholder_for": [
+        "Shii"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17461432",
+      "name": "Werebat",
+      "zone": "bostaunieux_oubliette",
+      "placeholder_for": [
+        "Arioch"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17461470",
+      "name": "Gespenst",
+      "zone": "bostaunieux_oubliette",
+      "placeholder_for": [
+        "Manes"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17461477",
+      "name": "Gespenst",
+      "zone": "bostaunieux_oubliette",
+      "placeholder_for": [
+        "Manes"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17469575",
+      "name": "Bouncing Ball",
+      "zone": "toraimarai_canal",
+      "placeholder_for": [
+        "Canal Moocher"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17469629",
+      "name": "Mousse",
+      "zone": "toraimarai_canal",
+      "placeholder_for": [
+        "Konjac"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17486002",
+      "name": "Clipper",
+      "zone": "korroloka_tunnel",
+      "placeholder_for": [
+        "Cargo Crab Colin"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17486004",
+      "name": "Clipper",
+      "zone": "korroloka_tunnel",
+      "placeholder_for": [
+        "Cargo Crab Colin"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17486030",
+      "name": "Huge Spider",
+      "zone": "korroloka_tunnel",
+      "placeholder_for": [
+        "Falcatus Aranei"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17486035",
+      "name": "Huge Spider",
+      "zone": "korroloka_tunnel",
+      "placeholder_for": [
+        "Falcatus Aranei"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17486128",
+      "name": "Bogy",
+      "zone": "korroloka_tunnel",
+      "placeholder_for": [
+        "Dame Blanche"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17489979",
+      "name": "Sabotender Sediendo",
+      "zone": "kuftal_tunnel",
+      "placeholder_for": [
+        "Sabotender Mariachi"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17489986",
+      "name": "Sabotender Sediendo",
+      "zone": "kuftal_tunnel",
+      "placeholder_for": [
+        "Sabotender Mariachi"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17490100",
+      "name": "Greater Cockatrice",
+      "zone": "kuftal_tunnel",
+      "placeholder_for": [
+        "Pelican"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17490158",
+      "name": "Goblin Mercenary",
+      "zone": "kuftal_tunnel",
+      "placeholder_for": [
+        "Bloodthirster Madkix"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17490201",
+      "name": "Deinonychus",
+      "zone": "kuftal_tunnel",
+      "placeholder_for": [
+        "Yowie"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17490203",
+      "name": "Deinonychus",
+      "zone": "kuftal_tunnel",
+      "placeholder_for": [
+        "Yowie"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17490212",
+      "name": "Recluse Spider",
+      "zone": "kuftal_tunnel",
+      "placeholder_for": [
+        "Arachne"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17490216",
+      "name": "Recluse Spider",
+      "zone": "kuftal_tunnel",
+      "placeholder_for": [
+        "Arachne"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17490220",
+      "name": "Recluse Spider",
+      "zone": "kuftal_tunnel",
+      "placeholder_for": [
+        "Arachne"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498156",
+      "name": "Royal Leech",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Masan"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498178",
+      "name": "Ghast blm",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Namtar"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498183",
+      "name": "Ghast blm",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Namtar"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498196",
+      "name": "Spring Sahagin",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Wuur the Sandcomber"
+      ],
+      "before_seconds": 780,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498259",
+      "name": "Riparian Sahagin",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Fyuu the Seabellow"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498266",
+      "name": "Riparian Sahagin",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Fyuu the Seabellow"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498280",
+      "name": "Brook Sahagin",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Qull the Shellbuster"
+      ],
+      "before_seconds": 900,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498283",
+      "name": "Brook Sahagin",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Qull the Shellbuster"
+      ],
+      "before_seconds": 900,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498298",
+      "name": "Riparian Sahagin",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Seww the Squidlimbed"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498518",
+      "name": "Devil Manta",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Charybdis"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17498520",
+      "name": "Devil Manta",
+      "zone": "sea_serpent_grotto",
+      "placeholder_for": [
+        "Charybdis"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17502543",
+      "name": "Detector",
+      "zone": "velugannon_palace",
+      "placeholder_for": [
+        "Steam Cleaner"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17502545",
+      "name": "Detector",
+      "zone": "velugannon_palace",
+      "placeholder_for": [
+        "Steam Cleaner"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17502547",
+      "name": "Detector",
+      "zone": "velugannon_palace",
+      "placeholder_for": [
+        "Steam Cleaner"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17502549",
+      "name": "Detector",
+      "zone": "velugannon_palace",
+      "placeholder_for": [
+        "Steam Cleaner"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17502551",
+      "name": "Detector",
+      "zone": "velugannon_palace",
+      "placeholder_for": [
+        "Steam Cleaner"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17502553",
+      "name": "Detector",
+      "zone": "velugannon_palace",
+      "placeholder_for": [
+        "Steam Cleaner"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17502555",
+      "name": "Detector",
+      "zone": "velugannon_palace",
+      "placeholder_for": [
+        "Steam Cleaner"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17502557",
+      "name": "Detector",
+      "zone": "velugannon_palace",
+      "placeholder_for": [
+        "Steam Cleaner"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17530882",
+      "name": "Giant Gatekeeper",
+      "zone": "lower_delkfutts_tower",
+      "placeholder_for": [
+        "Epialtes"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17531001",
+      "name": "Giant Guard",
+      "zone": "lower_delkfutts_tower",
+      "placeholder_for": [
+        "Hippolytos"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17531118",
+      "name": "Giant Sentry",
+      "zone": "lower_delkfutts_tower",
+      "placeholder_for": [
+        "Eurymedon"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 720,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17555661",
+      "name": "Nachzehrer war",
+      "zone": "king_ranperres_tomb",
+      "placeholder_for": [
+        "Gwyllgi"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 480,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17555662",
+      "name": "Nachzehrer blm",
+      "zone": "king_ranperres_tomb",
+      "placeholder_for": [
+        "Gwyllgi"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 480,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17555667",
+      "name": "Tomb Bat",
+      "zone": "king_ranperres_tomb",
+      "placeholder_for": [
+        "Crypt Ghost"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 480,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17559583",
+      "name": "Hoarder Hare",
+      "zone": "dangruf_wadi",
+      "placeholder_for": [
+        "Teporingo"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 480,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17563758",
+      "name": "Goblin Leecher",
+      "zone": "inner_horutoto_ruins",
+      "placeholder_for": [
+        "Slendlix Spindlethumb"
+      ],
+      "before_seconds": 540,
+      "after_seconds": 600,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17563797",
+      "name": "Boggart",
+      "zone": "inner_horutoto_ruins",
+      "placeholder_for": [
+        "Nocuous Weapon"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 600,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17563799",
+      "name": "Boggart",
+      "zone": "inner_horutoto_ruins",
+      "placeholder_for": [
+        "Nocuous Weapon"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 600,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17567797",
+      "name": "Fly Agaric OC",
+      "zone": "ordelles_caves",
+      "placeholder_for": [
+        "Donggu"
+      ],
+      "before_seconds": 720,
+      "after_seconds": 600,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17571868",
+      "name": "Stink Bats OHR",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Desmodont"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 480,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17571896",
+      "name": "Ghoul war",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Ah Puch"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 600,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17571900",
+      "name": "Ghoul war",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Ah Puch"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 600,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17572093",
+      "name": "Balloon OHR",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572094",
+      "name": "Bomb King",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572095",
+      "name": "Doppelganger Gog",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572096",
+      "name": "Doppelganger Dio",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572141",
+      "name": "Balloon OHR",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572142",
+      "name": "Bomb King",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572143",
+      "name": "Doppelganger Gog",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572144",
+      "name": "Doppelganger Dio",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572145",
+      "name": "Balloon OHR",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572146",
+      "name": "Bomb King",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572147",
+      "name": "Doppelganger Gog",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17572148",
+      "name": "Doppelganger Dio",
+      "zone": "outer_horutoto_ruins",
+      "placeholder_for": [
+        "Bomb King",
+        "Doppelganger Dio",
+        "Doppelganger Gog"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 450,
+      "basis": "classic_individual_reference",
+      "source": "https://www.ffxionline.com/forum/ffxi-game-related/ffxi-frequently-asked-questions/32864-nm-spawns-longer"
+    },
+    {
+      "mob_id": "17576053",
+      "name": "Tomb Wolf",
+      "zone": "the_eldieme_necropolis",
+      "placeholder_for": [
+        "Cwn Cyrff"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17584397",
+      "name": "Wespe CN",
+      "zone": "crawlers_nest",
+      "placeholder_for": [
+        "Demonic Tiphia"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17588276",
+      "name": "Maze Maker",
+      "zone": "maze_of_shakhrami",
+      "placeholder_for": [
+        "Trembler Tabitha"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 600,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17596515",
+      "name": "Explosure",
+      "zone": "garlaige_citadel",
+      "placeholder_for": [
+        "Hazmat"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17596624",
+      "name": "Fallen Major",
+      "zone": "garlaige_citadel",
+      "placeholder_for": [
+        "Hovering Hotpot"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17596626",
+      "name": "Fallen Mage",
+      "zone": "garlaige_citadel",
+      "placeholder_for": [
+        "Hovering Hotpot"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17612857",
+      "name": "Clockwork Pod FY",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Mind Hoarder"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613044",
+      "name": "Colossus",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Goliath"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613046",
+      "name": "Colossus",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Goliath"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613048",
+      "name": "Colossus",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Goliath"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613049",
+      "name": "Colossus",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Goliath"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613050",
+      "name": "Colossus",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Goliath"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613052",
+      "name": "Colossus",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Goliath"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613054",
+      "name": "Colossus",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Goliath"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613093",
+      "name": "Specter rng",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Western Shadow"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613098",
+      "name": "Specter war",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Northern Shadow"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613108",
+      "name": "Specter thf",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Eastern Shadow"
+      ],
+      "before_seconds": 420,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17613117",
+      "name": "Specter blm",
+      "zone": "feiyin",
+      "placeholder_for": [
+        "Southern Shadow"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17616996",
+      "name": "Sulfur Scorpion",
+      "zone": "ifrits_cauldron",
+      "placeholder_for": [
+        "Tyrannic Tunnok"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17617001",
+      "name": "Sulfur Scorpion",
+      "zone": "ifrits_cauldron",
+      "placeholder_for": [
+        "Tyrannic Tunnok"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17617008",
+      "name": "Eotyrannus",
+      "zone": "ifrits_cauldron",
+      "placeholder_for": [
+        "Lindwurm"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17617012",
+      "name": "Eotyrannus",
+      "zone": "ifrits_cauldron",
+      "placeholder_for": [
+        "Lindwurm"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17617055",
+      "name": "Goblin Alchemist",
+      "zone": "ifrits_cauldron",
+      "placeholder_for": [
+        "Foreseer Oramix"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17617056",
+      "name": "Goblin Alchemist",
+      "zone": "ifrits_cauldron",
+      "placeholder_for": [
+        "Foreseer Oramix"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17617066",
+      "name": "Goblin Alchemist",
+      "zone": "ifrits_cauldron",
+      "placeholder_for": [
+        "Foreseer Oramix"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17617069",
+      "name": "Goblin Alchemist",
+      "zone": "ifrits_cauldron",
+      "placeholder_for": [
+        "Foreseer Oramix"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17617118",
+      "name": "Hurricane Wyvern",
+      "zone": "ifrits_cauldron",
+      "placeholder_for": [
+        "Vouivre"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17617122",
+      "name": "Hurricane Wyvern",
+      "zone": "ifrits_cauldron",
+      "placeholder_for": [
+        "Vouivre"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629237",
+      "name": "Antican Signifer",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Centurio X-I"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629262",
+      "name": "Sabotender Bailaor",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Sabotender Bailarin"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629280",
+      "name": "Antican Princeps",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Antican Praefectus"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629296",
+      "name": "Antican Princeps",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Sagittarius X-XIII"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629409",
+      "name": "Antican Hastatus",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Antican Magister"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629420",
+      "name": "Antican Signifer",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Antican Proconsul"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629433",
+      "name": "Helm Beetle",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Diamond Daig"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629436",
+      "name": "Helm Beetle",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Diamond Daig"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629439",
+      "name": "Helm Beetle",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Diamond Daig"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629442",
+      "name": "Helm Beetle",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Diamond Daig"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629446",
+      "name": "Helm Beetle",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Diamond Daig"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629480",
+      "name": "Antican Aedilis",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Antican Tribunus"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629525",
+      "name": "Antican Triarius",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Triarius X-XV"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629529",
+      "name": "Antican Triarius",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Triarius X-XV"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629533",
+      "name": "Antican Triarius",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Triarius X-XV"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629537",
+      "name": "Antican Triarius",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Triarius X-XV"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629557",
+      "name": "Antican Triarius",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Hastatus XI-XII"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629582",
+      "name": "Spelunking Sabotender",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Sabotender Bailarina"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629586",
+      "name": "Spelunking Sabotender",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Sabotender Bailarina"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17629590",
+      "name": "Spelunking Sabotender",
+      "zone": "quicksand_caves",
+      "placeholder_for": [
+        "Sabotender Bailarina"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17645605",
+      "name": "Goblin Reaper",
+      "zone": "gustav_tunnel",
+      "placeholder_for": [
+        "Goblinsavior Heronox"
+      ],
+      "before_seconds": 960,
+      "after_seconds": 840,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17645738",
+      "name": "Doom Warlock",
+      "zone": "gustav_tunnel",
+      "placeholder_for": [
+        "Taxim"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17649730",
+      "name": "Flying Manta",
+      "zone": "labyrinth_of_onzozo",
+      "placeholder_for": [
+        "Lord of Onzozo"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17649760",
+      "name": "Flying Manta",
+      "zone": "labyrinth_of_onzozo",
+      "placeholder_for": [
+        "Peg Powler"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17649783",
+      "name": "Labyrinth Manticore",
+      "zone": "labyrinth_of_onzozo",
+      "placeholder_for": [
+        "Narasimha"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17649787",
+      "name": "Labyrinth Manticore",
+      "zone": "labyrinth_of_onzozo",
+      "placeholder_for": [
+        "Narasimha"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    },
+    {
+      "mob_id": "17649797",
+      "name": "Tainted Flesh LoO",
+      "zone": "labyrinth_of_onzozo",
+      "placeholder_for": [
+        "Hellion"
+      ],
+      "before_seconds": 300,
+      "after_seconds": 960,
+      "basis": "classic_dungeon_level_band",
+      "source": "https://wiki.ffo.jp/html/479.html"
+    }
+  ]
+}

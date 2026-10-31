@@ -1,0 +1,760 @@
+{
+  "scanned_on": "2026-10-31",
+  "lsb_revision": "1450874235d41341a2ced74c1dbbe9e4477611d2",
+  "lsb_zone_files": 248,
+  "horizon_lottery_category_url": "https://horizonffxi.wiki/Category:Lottery_Spawn_Notorious_Monsters",
+  "horizon_lottery_category_names": 150,
+  "pages_read": [
+    {
+      "name": "Aiatar",
+      "url": "https://horizonffxi.wiki/Aiatar",
+      "revision": null
+    },
+    {
+      "name": "Amemet",
+      "url": "https://horizonffxi.wiki/Amemet",
+      "revision": null
+    },
+    {
+      "name": "Amikiri",
+      "url": "https://horizonffxi.wiki/Amikiri",
+      "revision": null
+    },
+    {
+      "name": "Antican Magister",
+      "url": "https://horizonffxi.wiki/Antican_Magister",
+      "revision": null
+    },
+    {
+      "name": "Antican Praefectus",
+      "url": "https://horizonffxi.wiki/Antican_Praefectus",
+      "revision": null
+    },
+    {
+      "name": "Antican Proconsul",
+      "url": "https://horizonffxi.wiki/Antican_Proconsul",
+      "revision": null
+    },
+    {
+      "name": "Antican Tribunus",
+      "url": "https://horizonffxi.wiki/Antican_Tribunus",
+      "revision": null
+    },
+    {
+      "name": "Aquarius",
+      "url": "https://horizonffxi.wiki/Aquarius",
+      "revision": null
+    },
+    {
+      "name": "Arachne",
+      "url": "https://horizonffxi.wiki/Arachne",
+      "revision": "116878"
+    },
+    {
+      "name": "Arioch",
+      "url": "https://horizonffxi.wiki/Arioch",
+      "revision": "115478"
+    },
+    {
+      "name": "Ashmaker Gotblut",
+      "url": "https://horizonffxi.wiki/Ashmaker_Gotblut",
+      "revision": "114349"
+    },
+    {
+      "name": "Baobhan Sith",
+      "url": "https://horizonffxi.wiki/Baobhan_Sith",
+      "revision": "106975"
+    },
+    {
+      "name": "Baron Vapula",
+      "url": "https://horizonffxi.wiki/Baron_Vapula",
+      "revision": null,
+      "retrieval": "search index"
+    },
+    {
+      "name": "Biast",
+      "url": "https://horizonffxi.wiki/Biast",
+      "revision": "106979"
+    },
+    {
+      "name": "Bigmouth Billy",
+      "url": "https://horizonffxi.wiki/Bigmouth_Billy",
+      "revision": "115489"
+    },
+    {
+      "name": "Black Triple Stars",
+      "url": "https://horizonffxi.wiki/Black_Triple_Stars",
+      "revision": "101843"
+    },
+    {
+      "name": "Bloodpool Vorax",
+      "url": "https://horizonffxi.wiki/Bloodpool_Vorax",
+      "revision": "101837"
+    },
+    {
+      "name": "Bloodtear Baldurf",
+      "url": "https://horizonffxi.wiki/Bloodtear_Baldurf",
+      "revision": "107364"
+    },
+    {
+      "name": "Bloodthirster Madkix",
+      "url": "https://horizonffxi.wiki/Bloodthirster_Madkix",
+      "revision": "117747"
+    },
+    {
+      "name": "Bomb King",
+      "url": "https://horizonffxi.wiki/Bomb_King",
+      "revision": "118309"
+    },
+    {
+      "name": "Bonnacon",
+      "url": "https://horizonffxi.wiki/Bonnacon",
+      "revision": "115348"
+    },
+    {
+      "name": "Buburimboo",
+      "url": "https://horizonffxi.wiki/Buburimboo",
+      "revision": "101972"
+    },
+    {
+      "name": "Bugbear Strongman",
+      "url": "https://horizonffxi.wiki/Bugbear_Strongman",
+      "revision": "116848"
+    },
+    {
+      "name": "Cactuar Cantautor",
+      "url": "https://horizonffxi.wiki/Cactuar_Cantautor",
+      "revision": "107480"
+    },
+    {
+      "name": "Cargo Crab Colin",
+      "url": "https://horizonffxi.wiki/Cargo_Crab_Colin",
+      "revision": "114378"
+    },
+    {
+      "name": "Carnero",
+      "url": "https://horizonffxi.wiki/Carnero",
+      "revision": "115506"
+    },
+    {
+      "name": "Celphie",
+      "url": "https://horizonffxi.wiki/Celphie",
+      "revision": "116857"
+    },
+    {
+      "name": "Centurio X-I",
+      "url": "https://horizonffxi.wiki/Centurio_X-I",
+      "revision": "114168"
+    },
+    {
+      "name": "Charybdis",
+      "url": "https://horizonffxi.wiki/Charybdis",
+      "revision": null
+    },
+    {
+      "name": "Crypt Ghost",
+      "url": "https://horizonffxi.wiki/Crypt_Ghost",
+      "revision": "116373"
+    },
+    {
+      "name": "Daggerclaw Dracos",
+      "url": "https://horizonffxi.wiki/Daggerclaw_Dracos",
+      "revision": "116885"
+    },
+    {
+      "name": "Deadly Dodo",
+      "url": "https://horizonffxi.wiki/Deadly_Dodo",
+      "revision": "115317"
+    },
+    {
+      "name": "Demonic Tiphia",
+      "url": "https://horizonffxi.wiki/Demonic_Tiphia",
+      "revision": "116896"
+    },
+    {
+      "name": "Denn the Orcavoiced",
+      "url": "https://horizonffxi.wiki/Denn_the_Orcavoiced",
+      "revision": "118315"
+    },
+    {
+      "name": "Despot",
+      "url": "https://horizonffxi.wiki/Despot",
+      "revision": "116899"
+    },
+    {
+      "name": "Diamond Daig",
+      "url": "https://horizonffxi.wiki/Diamond_Daig",
+      "revision": "110381"
+    },
+    {
+      "name": "Doppelganger Dio",
+      "url": "https://horizonffxi.wiki/Doppelganger_Dio",
+      "revision": "117408"
+    },
+    {
+      "name": "Doppelganger Gog",
+      "url": "https://horizonffxi.wiki/Doppelganger_Gog",
+      "revision": "101836"
+    },
+    {
+      "name": "Drooling Daisy",
+      "url": "https://horizonffxi.wiki/Drooling_Daisy",
+      "revision": "110000"
+    },
+    {
+      "name": "Dune Widow",
+      "url": "https://horizonffxi.wiki/Dune_Widow",
+      "revision": "117786"
+    },
+    {
+      "name": "Eastern Shadow",
+      "url": "https://horizonffxi.wiki/Eastern_Shadow",
+      "revision": "114264"
+    },
+    {
+      "name": "Enkelados",
+      "url": "https://horizonffxi.wiki/Enkelados",
+      "revision": "116914"
+    },
+    {
+      "name": "Eurymedon",
+      "url": "https://horizonffxi.wiki/Eurymedon",
+      "revision": "101976"
+    },
+    {
+      "name": "Eurytos",
+      "url": "https://horizonffxi.wiki/Eurytos",
+      "revision": "101979"
+    },
+    {
+      "name": "Falcatus Aranei",
+      "url": "https://horizonffxi.wiki/Falcatus_Aranei",
+      "revision": "103856"
+    },
+    {
+      "name": "Flauros",
+      "url": "https://horizonffxi.wiki/Flauros",
+      "revision": "115499"
+    },
+    {
+      "name": "Friar Rush",
+      "url": "https://horizonffxi.wiki/Friar_Rush",
+      "revision": "118770"
+    },
+    {
+      "name": "Frostmane",
+      "url": "https://horizonffxi.wiki/Frostmane",
+      "revision": "116935"
+    },
+    {
+      "name": "Fungus Beetle",
+      "url": "https://horizonffxi.wiki/Fungus_Beetle",
+      "revision": "115488"
+    },
+    {
+      "name": "Fyuu the Seabellow",
+      "url": "https://horizonffxi.wiki/Fyuu_the_Seabellow",
+      "revision": null,
+      "retrieval": "search index"
+    },
+    {
+      "name": "Ga'Bhu Unvanquished",
+      "url": "https://horizonffxi.wiki/Ga%27Bhu_Unvanquished",
+      "revision": null,
+      "retrieval": "search index"
+    },
+    {
+      "name": "Gargantua",
+      "url": "https://horizonffxi.wiki/Gargantua",
+      "revision": null,
+      "retrieval": "search index"
+    },
+    {
+      "name": "Ge'Dha Evileye",
+      "url": "https://horizonffxi.wiki/Ge%27Dha_Evileye",
+      "revision": "116948"
+    },
+    {
+      "name": "Goblinsavior Heronox",
+      "url": "https://horizonffxi.wiki/Goblinsavior_Heronox",
+      "revision": "113513"
+    },
+    {
+      "name": "Golden Bat",
+      "url": "https://horizonffxi.wiki/Golden_Bat",
+      "revision": "107382"
+    },
+    {
+      "name": "Gyre-Carlin",
+      "url": "https://horizonffxi.wiki/Gyre-Carlin",
+      "revision": "107315"
+    },
+    {
+      "name": "Hawkeyed Dnatbat",
+      "url": "https://horizonffxi.wiki/Hawkeyed_Dnatbat",
+      "revision": "101842"
+    },
+    {
+      "name": "Helldiver",
+      "url": "https://horizonffxi.wiki/Helldiver",
+      "revision": "101853"
+    },
+    {
+      "name": "Hippolytos",
+      "url": "https://horizonffxi.wiki/Hippolytos",
+      "revision": "107202"
+    },
+    {
+      "name": "Hoo Mjuu the Torrent",
+      "url": "https://horizonffxi.wiki/Hoo_Mjuu_the_Torrent",
+      "revision": "119131"
+    },
+    {
+      "name": "Hundredscar Hajwaj",
+      "url": "https://horizonffxi.wiki/Hundredscar_Hajwaj",
+      "revision": "101559"
+    },
+    {
+      "name": "Imdugud",
+      "url": "https://horizonffxi.wiki/Imdugud",
+      "revision": "113241"
+    },
+    {
+      "name": "Intulo",
+      "url": "https://horizonffxi.wiki/Intulo",
+      "revision": "115565"
+    },
+    {
+      "name": "Jaggedy-Eared Jack",
+      "url": "https://horizonffxi.wiki/Jaggedy-Eared_Jack",
+      "revision": "101547"
+    },
+    {
+      "name": "Jailer of Temperance",
+      "url": "https://horizonffxi.wiki/Jailer_of_Temperance",
+      "revision": null
+    },
+    {
+      "name": "Jolly Green",
+      "url": "https://horizonffxi.wiki/Jolly_Green",
+      "revision": "106467"
+    },
+    {
+      "name": "Juu Duzu the Whirlwind",
+      "url": "https://horizonffxi.wiki/Juu_Duzu_the_Whirlwind",
+      "revision": "101565"
+    },
+    {
+      "name": "Kirata",
+      "url": "https://horizonffxi.wiki/Kirata",
+      "revision": "115704"
+    },
+    {
+      "name": "Leaping Lizzy",
+      "url": "https://horizonffxi.wiki/Leaping_Lizzy",
+      "revision": null,
+      "retrieval": "search index"
+    },
+    {
+      "name": "Leshonki",
+      "url": "https://horizonffxi.wiki/Leshonki",
+      "revision": "107473"
+    },
+    {
+      "name": "Lord of Onzozo",
+      "url": "https://horizonffxi.wiki/Lord_of_Onzozo",
+      "revision": "107831"
+    },
+    {
+      "name": "Lumbering Lambert",
+      "url": "https://horizonffxi.wiki/Lumbering_Lambert",
+      "revision": "101844"
+    },
+    {
+      "name": "Maighdean Uaine",
+      "url": "https://horizonffxi.wiki/Maighdean_Uaine",
+      "revision": "118766"
+    },
+    {
+      "name": "Masan",
+      "url": "https://horizonffxi.wiki/Masan",
+      "revision": null,
+      "retrieval": "search index"
+    },
+    {
+      "name": "Mee Deggi the Punisher",
+      "url": "https://horizonffxi.wiki/Mee_Deggi_the_Punisher",
+      "revision": "120459"
+    },
+    {
+      "name": "Megalobugard",
+      "url": "https://horizonffxi.wiki/Megalobugard",
+      "revision": "111753"
+    },
+    {
+      "name": "Mischievous Micholas",
+      "url": "https://horizonffxi.wiki/Mischievous_Micholas",
+      "revision": "120449"
+    },
+    {
+      "name": "Moo Ouzi the Swiftblade",
+      "url": "https://horizonffxi.wiki/Moo_Ouzi_the_Swiftblade",
+      "revision": null
+    },
+    {
+      "name": "Mouu the Waverider",
+      "url": "https://horizonffxi.wiki/Mouu_the_Waverider",
+      "revision": "115790"
+    },
+    {
+      "name": "Narasimha",
+      "url": "https://horizonffxi.wiki/Narasimha",
+      "revision": null
+    },
+    {
+      "name": "Nightmare Vase",
+      "url": "https://horizonffxi.wiki/Nightmare_Vase",
+      "revision": null
+    },
+    {
+      "name": "Northern Shadow",
+      "url": "https://horizonffxi.wiki/Northern_Shadow",
+      "revision": "114266"
+    },
+    {
+      "name": "Novv the Whitehearted",
+      "url": "https://horizonffxi.wiki/Novv_the_Whitehearted",
+      "revision": "119619"
+    },
+    {
+      "name": "Nue",
+      "url": "https://horizonffxi.wiki/Nue",
+      "revision": "118549"
+    },
+    {
+      "name": "Nunyenunc",
+      "url": "https://horizonffxi.wiki/Nunyenunc",
+      "revision": "103279"
+    },
+    {
+      "name": "Nussknacker",
+      "url": "https://horizonffxi.wiki/Nussknacker",
+      "revision": "107129"
+    },
+    {
+      "name": "Ogygos",
+      "url": "https://horizonffxi.wiki/Ogygos",
+      "revision": "113984"
+    },
+    {
+      "name": "Ophion",
+      "url": "https://horizonffxi.wiki/Ophion",
+      "revision": "108275"
+    },
+    {
+      "name": "Orctrap",
+      "url": "https://horizonffxi.wiki/Orctrap",
+      "revision": "110090"
+    },
+    {
+      "name": "Ose",
+      "url": "https://horizonffxi.wiki/Ose",
+      "revision": null
+    },
+    {
+      "name": "Overlord Bakgodek",
+      "url": "https://horizonffxi.wiki/Overlord_Bakgodek",
+      "revision": "118800"
+    },
+    {
+      "name": "Pahh the Gullcaller",
+      "url": "https://horizonffxi.wiki/Pahh_the_Gullcaller",
+      "revision": "115822"
+    },
+    {
+      "name": "Panzer Percival",
+      "url": "https://horizonffxi.wiki/Panzer_Percival",
+      "revision": "122065"
+    },
+    {
+      "name": "Peg Powler",
+      "url": "https://horizonffxi.wiki/Peg_Powler",
+      "revision": "108924"
+    },
+    {
+      "name": "Pelican",
+      "url": "https://horizonffxi.wiki/Pelican",
+      "revision": "117125"
+    },
+    {
+      "name": "Poisonhand Gnadgad",
+      "url": "https://horizonffxi.wiki/Poisonhand_Gnadgad",
+      "revision": "109168"
+    },
+    {
+      "name": "Quu Domi the Gallant",
+      "url": "https://horizonffxi.wiki/Quu_Domi_the_Gallant",
+      "revision": "120460"
+    },
+    {
+      "name": "Rampaging Ram",
+      "url": "https://horizonffxi.wiki/Rampaging_Ram",
+      "revision": "101845"
+    },
+    {
+      "name": "Sabotender Bailarin",
+      "url": "https://horizonffxi.wiki/Sabotender_Bailarin",
+      "revision": "107478"
+    },
+    {
+      "name": "Sabotender Bailarina",
+      "url": "https://horizonffxi.wiki/Sabotender_Bailarina",
+      "revision": "107483"
+    },
+    {
+      "name": "Sabotender Mariachi",
+      "url": "https://horizonffxi.wiki/Sabotender_Mariachi",
+      "revision": "107485"
+    },
+    {
+      "name": "Sagittarius X-XIII",
+      "url": "https://horizonffxi.wiki/Sagittarius_X-XIII",
+      "revision": "114170"
+    },
+    {
+      "name": "Sea Hog",
+      "url": "https://horizonffxi.wiki/Sea_Hog",
+      "revision": "121204"
+    },
+    {
+      "name": "Serpopard Ishtar",
+      "url": "https://horizonffxi.wiki/Serpopard_Ishtar",
+      "revision": null
+    },
+    {
+      "name": "Sewer Syrup",
+      "url": "https://horizonffxi.wiki/Sewer_Syrup",
+      "revision": "119572"
+    },
+    {
+      "name": "Seww the Squidlimbed",
+      "url": "https://horizonffxi.wiki/Seww_the_Squidlimbed",
+      "revision": "117166"
+    },
+    {
+      "name": "Shadow Eye",
+      "url": "https://horizonffxi.wiki/Shadow_Eye",
+      "revision": "36155"
+    },
+    {
+      "name": "Sharp-Eared Ropipi",
+      "url": "https://horizonffxi.wiki/Sharp-Eared_Ropipi",
+      "revision": "105172"
+    },
+    {
+      "name": "Shii",
+      "url": "https://horizonffxi.wiki/Shii",
+      "revision": "115464"
+    },
+    {
+      "name": "Slendlix Spindlethumb",
+      "url": "https://horizonffxi.wiki/Slendlix_Spindlethumb",
+      "revision": "119252"
+    },
+    {
+      "name": "Soulstealer Skullnix",
+      "url": "https://horizonffxi.wiki/Soulstealer_Skullnix",
+      "revision": "119188"
+    },
+    {
+      "name": "Southern Shadow",
+      "url": "https://horizonffxi.wiki/Southern_Shadow",
+      "revision": "109646"
+    },
+    {
+      "name": "Sozu Bliberry",
+      "url": "https://horizonffxi.wiki/Sozu_Bliberry",
+      "revision": "119582"
+    },
+    {
+      "name": "Sozu Sarberry",
+      "url": "https://horizonffxi.wiki/Sozu_Sarberry",
+      "revision": "118772"
+    },
+    {
+      "name": "Spiny Spipi",
+      "url": "https://horizonffxi.wiki/Spiny_Spipi",
+      "revision": "105143"
+    },
+    {
+      "name": "Steam Cleaner",
+      "url": "https://horizonffxi.wiki/Steam_Cleaner",
+      "revision": "117185"
+    },
+    {
+      "name": "Steelbiter Gudrud",
+      "url": "https://horizonffxi.wiki/Steelbiter_Gudrud",
+      "revision": "101980"
+    },
+    {
+      "name": "Steelfleece Baldarich",
+      "url": "https://horizonffxi.wiki/Steelfleece_Baldarich",
+      "revision": "117186"
+    },
+    {
+      "name": "Stinging Sophie",
+      "url": "https://horizonffxi.wiki/Stinging_Sophie",
+      "revision": null,
+      "retrieval": "search index"
+    },
+    {
+      "name": "Stray Mary",
+      "url": "https://horizonffxi.wiki/Stray_Mary",
+      "revision": null
+    },
+    {
+      "name": "Swamfisk",
+      "url": "https://horizonffxi.wiki/Swamfisk",
+      "revision": "117302"
+    },
+    {
+      "name": "Swashstox Beadblinker",
+      "url": "https://horizonffxi.wiki/Swashstox_Beadblinker",
+      "revision": "108557"
+    },
+    {
+      "name": "Tawny-fingered Mugberry",
+      "url": "https://horizonffxi.wiki/Tawny-fingered_Mugberry",
+      "revision": "110007"
+    },
+    {
+      "name": "Thousandarm Deshglesh",
+      "url": "https://horizonffxi.wiki/Thousandarm_Deshglesh",
+      "revision": "119248"
+    },
+    {
+      "name": "Tigerbane Bakdak",
+      "url": "https://horizonffxi.wiki/Tigerbane_Bakdak",
+      "revision": "117199"
+    },
+    {
+      "name": "Tom Tit Tat",
+      "url": "https://horizonffxi.wiki/Tom_Tit_Tat",
+      "revision": "120020"
+    },
+    {
+      "name": "Tottering Toby",
+      "url": "https://horizonffxi.wiki/Tottering_Toby",
+      "revision": "117206"
+    },
+    {
+      "name": "Triarius X-XV",
+      "url": "https://horizonffxi.wiki/Triarius_X-XV",
+      "revision": "114150"
+    },
+    {
+      "name": "Trickster Kinetix",
+      "url": "https://horizonffxi.wiki/Trickster_Kinetix",
+      "revision": "117208"
+    },
+    {
+      "name": "Tumbling Truffle",
+      "url": "https://horizonffxi.wiki/Tumbling_Truffle",
+      "revision": "105755"
+    },
+    {
+      "name": "Ungur",
+      "url": "https://horizonffxi.wiki/Ungur",
+      "revision": null
+    },
+    {
+      "name": "Valkurm Emperor",
+      "url": "https://horizonffxi.wiki/Valkurm_Emperor",
+      "revision": "115497"
+    },
+    {
+      "name": "Voll the Sharkfinned",
+      "url": "https://horizonffxi.wiki/Voll_the_Sharkfinned",
+      "revision": "115795"
+    },
+    {
+      "name": "Voluptuous Vivian",
+      "url": "https://horizonffxi.wiki/Voluptuous_Vivian",
+      "revision": "117226"
+    },
+    {
+      "name": "Vouivre",
+      "url": "https://horizonffxi.wiki/Vouivre",
+      "revision": null
+    },
+    {
+      "name": "Vuu Puqu the Beguiler",
+      "url": "https://horizonffxi.wiki/Vuu_Puqu_the_Beguiler",
+      "revision": null
+    },
+    {
+      "name": "Worr the Clawfisted",
+      "url": "https://horizonffxi.wiki/Worr_the_Clawfisted",
+      "revision": "115796"
+    },
+    {
+      "name": "Wuur the Sandcomber",
+      "url": "https://horizonffxi.wiki/Wuur_the_Sandcomber",
+      "revision": "75610"
+    },
+    {
+      "name": "Wyvernpoacher Drachlox",
+      "url": "https://horizonffxi.wiki/Wyvernpoacher_Drachlox",
+      "revision": "115498"
+    },
+    {
+      "name": "Yaa Haqa the Profane",
+      "url": "https://horizonffxi.wiki/Yaa_Haqa_the_Profane",
+      "revision": "109159"
+    },
+    {
+      "name": "Yowie",
+      "url": "https://horizonffxi.wiki/Yowie",
+      "revision": null
+    },
+    {
+      "name": "Za'Dha Adamantking",
+      "url": "https://horizonffxi.wiki/Za%27Dha_Adamantking",
+      "revision": "117243"
+    },
+    {
+      "name": "Zi'Ghi Boneeater",
+      "url": "https://horizonffxi.wiki/Zi%27Ghi_Boneeater",
+      "revision": null,
+      "retrieval": "search index"
+    },
+    {
+      "name": "Zo'Khu Blackcloud",
+      "url": "https://horizonffxi.wiki/Zo%27Khu_Blackcloud",
+      "revision": null,
+      "retrieval": "search index"
+    },
+    {
+      "name": "Zuug the Shoreleaper",
+      "url": "https://horizonffxi.wiki/Zuug_the_Shoreleaper",
+      "revision": "114569"
+    }
+  ],
+  "unresolved_mappings": [
+    "Sozu Bliberry"
+  ],
+  "limits": [
+    "Horizon main NM category pagination was not accessible; reviewed the 150-name lottery category instead.",
+    "LSB and Horizon may have different IDs or spawn rules. Candidate mappings from LSB are retained unless a reviewed Horizon source overrides them.",
+    "No live game timing validation was possible."
+  ],
+  "historical_source": "https://github.com/LandSandBoat/server/blob/7b39a672159a9c99ec587bc5d49e86c78b697133/scripts/zones/King_Ranperres_Tomb/mobs/Crypt_Ghost.lua",
+  "pages_not_retrieved": [
+    "Bi'Gho Headtaker",
+    "Bu'Ghi Howlblade",
+    "Citipati",
+    "Da'Dha Hundredmask",
+    "Epialtes"
+  ],
+  "successful_article_retrievals": 145
+}

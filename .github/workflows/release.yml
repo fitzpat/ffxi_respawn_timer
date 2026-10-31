@@ -1,0 +1,74 @@
+name: Windows release
+
+on:
+  push:
+    tags: ['v*']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  statuses: write
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: startsWith(github.ref, 'refs/tags/v')
+    runs-on: windows-latest
+    timeout-minutes: 20
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.13.6'
+          architecture: x64
+      - name: Mark release build pending
+        run: |
+          gh api "repos/$env:GITHUB_REPOSITORY/statuses/$env:GITHUB_SHA" -f state=pending -f "context=release/$env:GITHUB_REF_NAME" -f "target_url=$env:GITHUB_SERVER_URL/$env:GITHUB_REPOSITORY/actions/runs/$env:GITHUB_RUN_ID" -f description="Testing and building Windows release"
+      - name: Install build tool
+        run: python -m pip install pyinstaller==6.22.3
+      - name: Run regression tests
+        run: python -m unittest -v
+      - name: Build Windows executable
+        run: python -m PyInstaller --noconfirm FFXIRespawnTimer.spec
+      - name: Check packaged startup and persistence
+        run: python tools/check_packaged_ui.py
+      - name: Package release assets
+        run: python tools/package_release.py --version "$env:GITHUB_REF_NAME"
+      - name: Upload draft, verify assets, and publish
+        run: |
+          $files = @(
+            'release-assets/FFXIRespawnTimer.exe',
+            "release-assets/FFXIRespawnTimer-$env:GITHUB_REF_NAME-windows-x64.zip",
+            'release-assets/SHA256SUMS.txt'
+          )
+          gh release create "$env:GITHUB_REF_NAME" @files --draft --verify-tag --title "FFXI Respawn Timer $env:GITHUB_REF_NAME" --notes-file RELEASE_NOTES.md
+          if ($LASTEXITCODE -ne 0) { throw 'Release upload failed.' }
+          $release = gh api "repos/$env:GITHUB_REPOSITORY/releases/tags/$env:GITHUB_REF_NAME" | ConvertFrom-Json
+          if ($LASTEXITCODE -ne 0) { throw 'Could not inspect uploaded release.' }
+          $expected = @($files | ForEach-Object { Split-Path $_ -Leaf })
+          foreach ($name in $expected) {
+            $asset = @($release.assets | Where-Object { $_.name -eq $name -and $_.size -gt 0 -and $_.state -eq 'uploaded' })
+            if ($asset.Count -ne 1) { throw "Missing or incomplete asset: $name" }
+          }
+          gh release edit "$env:GITHUB_REF_NAME" --draft=false --latest
+          if ($LASTEXITCODE -ne 0) { throw 'Release publication failed.' }
+          $release = gh api "repos/$env:GITHUB_REPOSITORY/releases/tags/$env:GITHUB_REF_NAME" | ConvertFrom-Json
+          if ($LASTEXITCODE -ne 0 -or $release.draft -or -not $release.published_at) { throw 'Published release verification failed.' }
+          "RELEASE_URL=$($release.html_url)" >> $env:GITHUB_ENV
+      - name: Report release result
+        if: always()
+        env:
+          RELEASE_JOB_STATUS: ${{ job.status }}
+        run: |
+          $state = if ($env:RELEASE_JOB_STATUS -eq 'success' -and $env:RELEASE_URL) { 'success' } else { 'failure' }
+          $url = if ($state -eq 'success') { $env:RELEASE_URL } else { "$env:GITHUB_SERVER_URL/$env:GITHUB_REPOSITORY/actions/runs/$env:GITHUB_RUN_ID" }
+          $description = if ($state -eq 'success') { 'Published verified EXE, portable ZIP, and checksums' } else { 'Release failed; inspect workflow logs' }
+          gh api "repos/$env:GITHUB_REPOSITORY/statuses/$env:GITHUB_SHA" -f "state=$state" -f "context=release/$env:GITHUB_REF_NAME" -f "target_url=$url" -f "description=$description"

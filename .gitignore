@@ -1,0 +1,24 @@
+# Local game connection, timers, and preferences
+mob_timer_config.json
+mob_timer_config.json.tmp
+
+# Build and release output
+/build/
+/dist/
+/release-assets/
+*.generated.json
+
+# Local visual review output
+/ui-review/
+
+# Python caches and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,846 @@
+[
+  {
+    "nm": "Aiatar",
+    "zone": "riverne_site_a01",
+    "source": "https://horizonffxi.wiki/Aiatar",
+    "placeholder_ids": [
+      16900305
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Bigmouth Billy",
+    "zone": "east_ronfaure",
+    "source": "https://horizonffxi.wiki/Bigmouth_Billy",
+    "placeholder_ids": [
+      17191142,
+      17191143
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Bloodpool Vorax",
+    "zone": "pashhow_marshlands",
+    "source": "https://horizonffxi.wiki/Bloodpool_Vorax",
+    "placeholder_ids": [
+      17224014
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Ashmaker Gotblut",
+    "zone": "yughott_grotto",
+    "source": "https://horizonffxi.wiki/Ashmaker_Gotblut",
+    "placeholder_ids": [
+      17358926
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Buburimboo",
+    "zone": "buburimu_peninsula",
+    "source": "https://horizonffxi.wiki/Buburimboo",
+    "placeholder_ids": [
+      17261002
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Charybdis",
+    "zone": "sea_serpent_grotto",
+    "source": "https://horizonffxi.wiki/Charybdis",
+    "placeholder_ids": [
+      17498518,
+      17498520
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Dune Widow",
+    "zone": "eastern_altepa_desert",
+    "source": "https://horizonffxi.wiki/Dune_Widow",
+    "placeholder_ids": [
+      17244395
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Deadly Dodo",
+    "zone": "sauromugue_champaign",
+    "source": "https://horizonffxi.wiki/Deadly_Dodo",
+    "placeholder_ids": [
+      17268849,
+      17268850
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Demonic Tiphia",
+    "zone": "crawlers_nest",
+    "source": "https://horizonffxi.wiki/Demonic_Tiphia",
+    "placeholder_ids": [
+      17584397
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Friar Rush",
+    "zone": "den_of_rancor",
+    "source": "https://horizonffxi.wiki/Friar_Rush",
+    "placeholder_ids": [
+      17432638
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Fungus Beetle",
+    "zone": "west_ronfaure",
+    "source": "https://horizonffxi.wiki/Fungus_Beetle",
+    "placeholder_ids": [
+      17187026
+    ],
+    "note": "Uses the explicit hex index 0D2; the wiki decimal annotation conflicts with it.",
+    "replace_lsb": true
+  },
+  {
+    "nm": "Ge'Dha Evileye",
+    "zone": "beadeaux",
+    "source": "https://horizonffxi.wiki/Ge'Dha_Evileye",
+    "placeholder_ids": [
+      17379447
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Goblinsavior Heronox",
+    "zone": "gustav_tunnel",
+    "source": "https://horizonffxi.wiki/Goblinsavior_Heronox",
+    "placeholder_ids": [
+      17645605
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Hoo Mjuu the Torrent",
+    "zone": "giddeus",
+    "source": "https://horizonffxi.wiki/Hoo_Mjuu_the_Torrent",
+    "placeholder_ids": [
+      17371513
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Intulo",
+    "zone": "bibiki_bay",
+    "source": "https://horizonffxi.wiki/Intulo",
+    "placeholder_ids": [
+      16793741
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Jaggedy-Eared Jack",
+    "zone": "west_ronfaure",
+    "source": "https://horizonffxi.wiki/Jaggedy-Eared_Jack",
+    "placeholder_ids": [
+      17187110
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Jolly Green",
+    "zone": "pashhow_marshlands",
+    "source": "https://horizonffxi.wiki/Jolly_Green",
+    "placeholder_ids": [
+      17223888
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Juu Duzu the Whirlwind",
+    "zone": "giddeus",
+    "source": "https://horizonffxi.wiki/Juu_Duzu_the_Whirlwind",
+    "placeholder_ids": [
+      17371296
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Kirata",
+    "zone": "beaucedine_glacier",
+    "source": "https://horizonffxi.wiki/Kirata",
+    "placeholder_ids": [
+      17232042,
+      17232043
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Leaping Lizzy",
+    "zone": "south_gustaberg",
+    "source": "https://horizonffxi.wiki/Leaping_Lizzy",
+    "placeholder_ids": [
+      17215867,
+      17215887
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Megalobugard",
+    "zone": "lufaise_meadows",
+    "source": "https://horizonffxi.wiki/Megalobugard",
+    "placeholder_ids": [
+      16875711,
+      16875720,
+      16875739
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Mischievous Micholas",
+    "zone": "yuhtunga_jungle",
+    "source": "https://horizonffxi.wiki/Mischievous_Micholas",
+    "placeholder_ids": [
+      17281148
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Maighdean Uaine",
+    "zone": "north_gustaberg",
+    "source": "https://horizonffxi.wiki/Maighdean_Uaine",
+    "placeholder_ids": [
+      17211698,
+      17211701
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Mee Deggi the Punisher",
+    "zone": "castle_oztroja",
+    "source": "https://horizonffxi.wiki/Mee_Deggi_the_Punisher",
+    "placeholder_ids": [
+      17395798,
+      17395799
+    ],
+    "note": "Wiki lists these IDs but says exact active Horizon placeholders require verification.",
+    "replace_lsb": true
+  },
+  {
+    "nm": "Nue",
+    "zone": "beaucedine_glacier",
+    "source": "https://horizonffxi.wiki/Nue",
+    "placeholder_ids": [
+      17231969,
+      17231970
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Nunyenunc",
+    "zone": "west_sarutabaruta",
+    "source": "https://horizonffxi.wiki/Nunyenunc",
+    "placeholder_ids": [
+      17248514,
+      17248515,
+      17248516
+    ],
+    "note": "Wiki also lists 043 with a verification-needed marker; that unverified candidate is excluded.",
+    "replace_lsb": true
+  },
+  {
+    "nm": "Quu Domi the Gallant",
+    "zone": "castle_oztroja",
+    "source": "https://horizonffxi.wiki/Quu_Domi_the_Gallant",
+    "placeholder_ids": [
+      17395867,
+      17395868
+    ],
+    "note": "Wiki lists these IDs but says exact active Horizon placeholders require verification.",
+    "replace_lsb": true
+  },
+  {
+    "nm": "Seww the Squidlimbed",
+    "zone": "sea_serpent_grotto",
+    "source": "https://horizonffxi.wiki/Seww_the_Squidlimbed",
+    "placeholder_ids": [
+      17498298
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Shadow Eye",
+    "zone": "xarcabard",
+    "source": "https://horizonffxi.wiki/Shadow_Eye",
+    "placeholder_ids": [
+      17236174
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Sharp-Eared Ropipi",
+    "zone": "east_sarutabaruta",
+    "source": "https://horizonffxi.wiki/Sharp-Eared_Ropipi",
+    "placeholder_ids": [
+      17252507
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Shii",
+    "zone": "bostaunieux_oubliette",
+    "source": "https://horizonffxi.wiki/Shii",
+    "placeholder_ids": [
+      17461310,
+      17461314
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Slendlix Spindlethumb",
+    "zone": "inner_horutoto_ruins",
+    "source": "https://horizonffxi.wiki/Slendlix_Spindlethumb",
+    "placeholder_ids": [
+      17563758
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Sozu Sarberry",
+    "zone": "temple_of_uggalepih",
+    "source": "https://horizonffxi.wiki/Sozu_Sarberry",
+    "placeholder_ids": [
+      17428551
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Spiny Spipi",
+    "zone": "east_sarutabaruta",
+    "source": "https://horizonffxi.wiki/Spiny_Spipi",
+    "placeholder_ids": [
+      17252656
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Swashstox Beadblinker",
+    "zone": "newton_movalpolos",
+    "source": "https://horizonffxi.wiki/Swashstox_Beadblinker",
+    "placeholder_ids": [
+      16826507,
+      16826514
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Panzer Percival",
+    "zone": "jugner_forest",
+    "source": "https://horizonffxi.wiki/Panzer_Percival",
+    "placeholder_ids": [
+      17203581,
+      17203637
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Tom Tit Tat",
+    "zone": "west_sarutabaruta",
+    "source": "https://horizonffxi.wiki/Tom_Tit_Tat",
+    "placeholder_ids": [
+      17248466,
+      17248467,
+      17248484,
+      17248485
+    ],
+    "note": "Full IDs resolved from the listed hex indexes; wiki full decimal IDs appear truncated.",
+    "replace_lsb": true
+  },
+  {
+    "nm": "Tumbling Truffle",
+    "zone": "la_theine_plateau",
+    "source": "https://horizonffxi.wiki/Tumbling_Truffle",
+    "placeholder_ids": [
+      17195256
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Ungur",
+    "zone": "gustav_tunnel",
+    "source": "https://horizonffxi.wiki/Ungur",
+    "placeholder_ids": [
+      17645754
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Valkurm Emperor",
+    "zone": "valkurm_dunes",
+    "source": "https://horizonffxi.wiki/Valkurm_Emperor",
+    "placeholder_ids": [
+      17199434
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Vuu Puqu the Beguiler",
+    "zone": "giddeus",
+    "source": "https://horizonffxi.wiki/Vuu_Puqu_the_Beguiler",
+    "placeholder_ids": [
+      17371577
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Wyvernpoacher Drachlox",
+    "zone": "gustav_tunnel",
+    "source": "https://horizonffxi.wiki/Wyvernpoacher_Drachlox",
+    "placeholder_ids": [
+      17645633
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Yowie",
+    "zone": "kuftal_tunnel",
+    "source": "https://horizonffxi.wiki/Yowie",
+    "placeholder_ids": [
+      17490201,
+      17490203
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Nussknacker",
+    "zone": "quicksand_caves",
+    "source": "https://horizonffxi.wiki/Nussknacker",
+    "placeholder_ids": [
+      17629396,
+      17629397
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Despot",
+    "zone": "ruaun_gardens",
+    "source": "https://github.com/LandSandBoat/server/blob/1450874235d41341a2ced74c1dbbe9e4477611d2/scripts/zones/RuAun_Gardens/mobs/Despot.lua",
+    "placeholder_ids": [
+      17309938,
+      17309939,
+      17309940,
+      17309941,
+      17309942,
+      17309943,
+      17309944,
+      17309945,
+      17309946,
+      17309947,
+      17309948,
+      17309949,
+      17309950,
+      17309951,
+      17309952,
+      17309953
+    ]
+  },
+  {
+    "nm": "Jailer of Temperance",
+    "zone": "grand_palace_of_huxzoi",
+    "source": "https://github.com/LandSandBoat/server/blob/1450874235d41341a2ced74c1dbbe9e4477611d2/scripts/zones/Grand_Palace_of_HuXzoi/IDs.lua",
+    "placeholder_ids": [
+      16916489,
+      16916508,
+      16916525,
+      16916541,
+      16916560
+    ],
+    "respawn_seconds": 960,
+    "note": "The active placeholder rotates among these five Eozdei; not all five are active at once."
+  },
+  {
+    "nm": "Biast",
+    "zone": "xarcabard",
+    "source": "https://horizonffxi.wiki/Biast",
+    "placeholder_ids": [
+      17235987
+    ],
+    "respawn_seconds": 1800
+  },
+  {
+    "nm": "Overlord Bakgodek",
+    "zone": "monastic_cavern",
+    "source": "https://github.com/LandSandBoat/server/blob/1450874235d41341a2ced74c1dbbe9e4477611d2/scripts/zones/Monastic_Cavern/mobs/Overlord_Bakgodek.lua",
+    "placeholder_ids": [
+      17391806
+    ]
+  },
+  {
+    "nm": "Za'Dha Adamantking",
+    "zone": "qulun_dome",
+    "source": "https://github.com/LandSandBoat/server/blob/1450874235d41341a2ced74c1dbbe9e4477611d2/scripts/zones/Qulun_Dome/mobs/ZaDha_Adamantking.lua",
+    "placeholder_ids": [
+      17383444
+    ]
+  },
+  {
+    "nm": "Lumbering Lambert",
+    "zone": "la_theine_plateau",
+    "source": "https://github.com/LandSandBoat/server/blob/1450874235d41341a2ced74c1dbbe9e4477611d2/scripts/zones/La_Theine_Plateau/mobs/Lumbering_Lambert.lua",
+    "placeholder_ids": [
+      17195143,
+      17195316
+    ]
+  },
+  {
+    "nm": "Bloodtear Baldurf",
+    "zone": "la_theine_plateau",
+    "source": "https://horizonffxi.wiki/Bloodtear_Baldurf",
+    "placeholder_ids": [
+      17195143,
+      17195316
+    ],
+    "respawn_seconds": 600,
+    "note": "Horizon wiki names Battering Rams as PHs; LSB instead chains through Lumbering Lambert."
+  },
+  {
+    "nm": "Rampaging Ram",
+    "zone": "konschtat_highlands",
+    "source": "https://github.com/LandSandBoat/server/blob/1450874235d41341a2ced74c1dbbe9e4477611d2/scripts/zones/Konschtat_Highlands/mobs/Rampaging_Ram.lua",
+    "placeholder_ids": [
+      17219885,
+      17219987
+    ]
+  },
+  {
+    "nm": "Steelfleece Baldarich",
+    "zone": "konschtat_highlands",
+    "source": "https://horizonffxi.wiki/Steelfleece_Baldarich",
+    "placeholder_ids": [
+      17219885,
+      17219987,
+      17219886
+    ],
+    "note": "Horizon wiki lists Rampaging Ram and/or Tremor Rams; LSB implements a chain through Rampaging Ram."
+  },
+  {
+    "nm": "Steam Cleaner",
+    "zone": "velugannon_palace",
+    "source": "https://github.com/LandSandBoat/server/blob/1450874235d41341a2ced74c1dbbe9e4477611d2/scripts/zones/VeLugannon_Palace/mobs/Detector.lua",
+    "placeholder_ids": [
+      17502543,
+      17502545,
+      17502547,
+      17502549,
+      17502551,
+      17502553,
+      17502555,
+      17502557
+    ],
+    "note": "These Detectors summon Steam Cleaner while engaged. Killing one is not required to roll the NM."
+  },
+  {
+    "nm": "Amemet",
+    "zone": "kuftal_tunnel",
+    "source": "https://horizonffxi.wiki/Amemet",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Bloodpool Vorax",
+    "zone": "pashhow_marshlands",
+    "source": "https://horizonffxi.wiki/Bloodpool_Vorax",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Buburimboo",
+    "zone": "buburimu_peninsula",
+    "source": "https://horizonffxi.wiki/Buburimboo",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Carnero",
+    "zone": "south_gustaberg",
+    "source": "https://horizonffxi.wiki/Carnero",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Centurio X-I",
+    "zone": "quicksand_caves",
+    "source": "https://horizonffxi.wiki/Centurio_X-I",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Deadly Dodo",
+    "zone": "sauromugue_champaign",
+    "source": "https://horizonffxi.wiki/Deadly_Dodo",
+    "respawn_seconds": 330
+  },
+  {
+    "nm": "Eastern Shadow",
+    "zone": "feiyin",
+    "source": "https://horizonffxi.wiki/Eastern_Shadow",
+    "respawn_seconds": 420
+  },
+  {
+    "nm": "Enkelados",
+    "zone": "the_eldieme_necropolis_s",
+    "source": "https://horizonffxi.wiki/Enkelados",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Eurytos",
+    "zone": "bastok_markets_s",
+    "source": "https://horizonffxi.wiki/Eurytos",
+    "respawn_seconds": 780
+  },
+  {
+    "nm": "Friar Rush",
+    "zone": "den_of_rancor",
+    "source": "https://horizonffxi.wiki/Friar_Rush",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Fungus Beetle",
+    "zone": "west_ronfaure",
+    "source": "https://horizonffxi.wiki/Fungus_Beetle",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Ge'Dha Evileye",
+    "zone": "beadeaux",
+    "source": "https://horizonffxi.wiki/Ge'Dha_Evileye",
+    "respawn_seconds": 900
+  },
+  {
+    "nm": "Goblinsavior Heronox",
+    "zone": "gustav_tunnel",
+    "source": "https://horizonffxi.wiki/Goblinsavior_Heronox",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Golden Bat",
+    "zone": "valkurm_dunes",
+    "source": "https://horizonffxi.wiki/Golden_Bat",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Helldiver",
+    "zone": "buburimu_peninsula",
+    "source": "https://horizonffxi.wiki/Helldiver",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Hoo Mjuu the Torrent",
+    "zone": "giddeus",
+    "source": "https://horizonffxi.wiki/Hoo_Mjuu_the_Torrent",
+    "respawn_seconds": 420
+  },
+  {
+    "nm": "Imdugud",
+    "zone": "riverne_site_b01",
+    "source": "https://horizonffxi.wiki/Imdugud",
+    "respawn_seconds": 360
+  },
+  {
+    "nm": "Intulo",
+    "zone": "bibiki_bay",
+    "source": "https://horizonffxi.wiki/Intulo",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Jaggedy-Eared Jack",
+    "zone": "west_ronfaure",
+    "source": "https://horizonffxi.wiki/Jaggedy-Eared_Jack",
+    "respawn_seconds": 330
+  },
+  {
+    "nm": "Jailer of Temperance",
+    "zone": "grand_palace_of_huxzoi",
+    "source": "https://horizonffxi.wiki/Jailer_of_Temperance",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Kirata",
+    "zone": "beaucedine_glacier",
+    "source": "https://horizonffxi.wiki/Kirata",
+    "respawn_seconds": 330
+  },
+  {
+    "nm": "Leaping Lizzy",
+    "zone": "south_gustaberg",
+    "source": "https://horizonffxi.wiki/Leaping_Lizzy",
+    "respawn_seconds": 330
+  },
+  {
+    "nm": "Megalobugard",
+    "zone": "lufaise_meadows",
+    "source": "https://horizonffxi.wiki/Megalobugard",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Moo Ouzi the Swiftblade",
+    "zone": "beaucedine_glacier_s",
+    "source": "https://horizonffxi.wiki/Moo_Ouzi_the_Swiftblade",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Maighdean Uaine",
+    "zone": "north_gustaberg",
+    "source": "https://horizonffxi.wiki/Maighdean_Uaine",
+    "respawn_seconds": 240
+  },
+  {
+    "nm": "Mee Deggi the Punisher",
+    "zone": "castle_oztroja",
+    "source": "https://horizonffxi.wiki/Mee_Deggi_the_Punisher",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Northern Shadow",
+    "zone": "feiyin",
+    "source": "https://horizonffxi.wiki/Northern_Shadow",
+    "respawn_seconds": 420
+  },
+  {
+    "nm": "Nue",
+    "zone": "beaucedine_glacier",
+    "source": "https://horizonffxi.wiki/Nue",
+    "respawn_seconds": 300
+  },
+  {
+    "nm": "Nussknacker",
+    "zone": "quicksand_caves",
+    "source": "https://horizonffxi.wiki/Nussknacker",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Ogygos",
+    "zone": "middle_delkfutts_tower",
+    "source": "https://horizonffxi.wiki/Ogygos",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Quu Domi the Gallant",
+    "zone": "castle_oztroja",
+    "source": "https://horizonffxi.wiki/Quu_Domi_the_Gallant",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Seww the Squidlimbed",
+    "zone": "sea_serpent_grotto",
+    "source": "https://horizonffxi.wiki/Seww_the_Squidlimbed",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Slendlix Spindlethumb",
+    "zone": "inner_horutoto_ruins",
+    "source": "https://horizonffxi.wiki/Slendlix_Spindlethumb",
+    "respawn_seconds": 540
+  },
+  {
+    "nm": "Soulstealer Skullnix",
+    "zone": "labyrinth_of_onzozo",
+    "source": "https://horizonffxi.wiki/Soulstealer_Skullnix",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Orctrap",
+    "zone": "carpenters_landing",
+    "source": "https://horizonffxi.wiki/Orctrap",
+    "respawn_seconds": 450
+  },
+  {
+    "nm": "Ose",
+    "zone": "labyrinth_of_onzozo",
+    "source": "https://horizonffxi.wiki/Ose",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Ungur",
+    "zone": "gustav_tunnel",
+    "source": "https://horizonffxi.wiki/Ungur",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Valkurm Emperor",
+    "zone": "valkurm_dunes",
+    "source": "https://horizonffxi.wiki/Valkurm_Emperor",
+    "respawn_seconds": 330
+  },
+  {
+    "nm": "Vuu Puqu the Beguiler",
+    "zone": "giddeus",
+    "source": "https://horizonffxi.wiki/Vuu_Puqu_the_Beguiler",
+    "respawn_seconds": 420
+  },
+  {
+    "nm": "Wyvernpoacher Drachlox",
+    "zone": "gustav_tunnel",
+    "source": "https://horizonffxi.wiki/Wyvernpoacher_Drachlox",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Yaa Haqa the Profane",
+    "zone": "castle_oztroja",
+    "source": "https://horizonffxi.wiki/Yaa_Haqa_the_Profane",
+    "respawn_seconds": 840
+  },
+  {
+    "nm": "Crypt Ghost",
+    "zone": "king_ranperres_tomb",
+    "source": "https://github.com/LandSandBoat/server/blob/7b39a672159a9c99ec587bc5d49e86c78b697133/scripts/zones/King_Ranperres_Tomb/mobs/Crypt_Ghost.lua",
+    "placeholder_ids": [
+      17555667
+    ],
+    "note": "Explicit PH table from the LSB revision before the YAML migration; absent from the current slot data."
+  },
+  {
+    "nm": "Fyuu the Seabellow",
+    "zone": "sea_serpent_grotto",
+    "source": "https://horizonffxi.wiki/Fyuu_the_Seabellow",
+    "placeholder_ids": [
+      17498266,
+      17498259
+    ],
+    "respawn_seconds": 960,
+    "replace_lsb": true
+  },
+  {
+    "nm": "Gargantua",
+    "zone": "beaucedine_glacier",
+    "source": "https://horizonffxi.wiki/Gargantua",
+    "placeholder_ids": [
+      17232078
+    ],
+    "respawn_seconds": 300,
+    "replace_lsb": true
+  },
+  {
+    "nm": "Zi'Ghi Boneeater",
+    "zone": "palborough_mines",
+    "source": "https://horizonffxi.wiki/Zi'Ghi_Boneeater",
+    "placeholder_ids": [
+      17363205
+    ],
+    "replace_lsb": true
+  },
+  {
+    "nm": "Baron Vapula",
+    "zone": "castle_zvahl_baileys",
+    "source": "https://horizonffxi.wiki/Baron_Vapula",
+    "respawn_seconds": 960
+  },
+  {
+    "nm": "Zo'Khu Blackcloud",
+    "zone": "beadeaux",
+    "source": "https://horizonffxi.wiki/Zo'Khu_Blackcloud",
+    "respawn_seconds": 1020
+  },
+  {
+    "nm": "Bomb King",
+    "zone": "outer_horutoto_ruins",
+    "source": "https://horizonffxi.wiki/Bomb_King",
+    "respawn_seconds": 420,
+    "note": "Wiki reports Balloon respawning in roughly seven minutes; shared slot also rolls the two Doppelgangers."
+  }
+]
